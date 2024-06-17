@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
+.blinker-thin {
+    font-family: "Blinker", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.playwrite {
+    font-family: "Playwrite MX", cursive;
+    font-optical-sizing: auto;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.main-container{
+    margin: 0;
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-container{
+    margin: 0;
+    width: 100%;
+    padding: 1rem 0;
+    font-family: "Blinker", sans-serif;
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-container a{
+    color: rgb(0, 99, 0);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.container-wrapper{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    background-color: rgb(221, 223, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-section{
+    margin: 0;
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-section .heading{
+    color: rgb(0, 99, 0);
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-family: "Sedan SC", serif;
+}
+
+.header-section .sub-heading{
+    color: rgb(0, 99, 0);
+    font-size: 1.5rem;
+    font-family: "Blinker", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.header-section .sub-heading2{
+    color: rgb(210, 112, 14);
+    font-size: 1rem;
+    font-family: "Blinker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.header-section hr{
+    width: 10rem;
+    margin: 1rem;
+}
+
+.header-section .sub-heading3{
+    color: rgb(0, 99, 0);
+    font-size: 1.2rem;
+    font-family: "Blinker", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "Playwrite MX", cursive;
+}
+
+.header-section .top-img{
+    position: relative;
+}
+
+.header-section .top-img .left{
+    position: absolute;
+    font-size: 1.3rem;
+    top: 50%;
+    color: rgb(0, 99, 0);
+    font-family: "Sedan SC", serif;
+    left: 0%;
+    text-align: center;
+    text-decoration: uppercase;
+}
+
+.header-section .top-img .right{
+    position: absolute;
+    color: rgb(0, 99, 0);
+    font-family: "Sedan SC", serif;
+    text-decoration: uppercase;
+    font-size: 1.3rem;
+    top: 50%;
+    text-align: center;
+    right: 0%;
+}
+
+.sprits-section{
+    margin: 0;
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sprits-section .sub-heading{
+    color: rgb(0, 99, 0);
+    font-size: 2rem;
+    font-family: "Blinker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.sprits-section .cards{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sprits-section .cards .card{
+    margin: 10rem;
+    flex: 1;
+    background-color: whitesmoke;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sprits-section .cards .card .name{
+    color: rgb(0, 99, 0);
+    font-size: 1.5rem;
+    font-family: "Blinker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 1.4rem;
+}
+
+.sprits-section .cards .card .name span{
+    font-size: 1.2rem;
+}
+
+
+.sprits-section .cards .card .topic{
+    color: rgb(210, 112, 14);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin: .8rem;
+}
+.sprits-section .cards .card .desc{
+    color: rgb(0, 99, 0);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: .8rem;
+    text-align: center;
+}
+
+.sprits-section .cards .card hr{
+    width: 60%;
+    color: rgb(0, 99, 0);
+    margin: .8rem;
+}
+
+.sprits-section .cards .card .price{
+    color: rgb(0, 99, 0);
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin: 1rem;
+}
+
+.sprits-section .cards .card .price .sign{
+    font-size: 1.2rem;
+}
+
+.sprits-section .cards .card .price sup{
+    font-size: 1.2rem;
+}
+
+.sprits-section .cards .card .btn{
+    color: rgb(0, 99, 0);
+    letter-spacing: 2px;
+    margin: 1rem;
+    padding: 10px 40px;
+    background-color: rgb(221, 223, 221);
+}
+
+
+.services-section{
+    margin: 0;
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-section .sub-heading{
+    color: rgb(0, 99, 0);
+    font-size: 2rem;
+    font-family: "Blinker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.services-section .sub-heading3{
+    color: rgb(0, 99, 0);
+    font-size: 1.1rem;
+    font-family: "Blinker", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Playwrite MX", cursive;
+}
+
+.services-section .serve-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.services-section .serve-card .left{
+    flex:1;
+    /* height: 400px; */
+}
+
+.services-section .serve-card .left img{
+    width: 100%;
+}
+
+.services-section .serve-card .right{
+    flex: 1;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 785px;
+}
+
+
+.services-section .serve-card .right .topic{
+    color: rgb(210, 112, 14);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin: .8rem;
+}
+
+.services-section .serve-card .right .desc{
+    color: rgb(0, 99, 0);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: .8rem;
+    text-align: center;
+}
+
+.services-section .serve-card .right hr{
+    width: 30%;
+    color: rgb(0, 99, 0);
+    margin: .8rem;
+}
+
+.services-section .serve-card .right .btn{
+    color: rgb(0, 99, 0);
+    letter-spacing: 2px;
+    margin: 1rem;
+    padding: 10px 50px;
+    background-color: rgb(221, 223, 221);
+}
+
+.story-section{
+    margin: 0;
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-section .sub-heading{
+    color: rgb(0, 99, 0);
+    font-size: 2rem;
+    font-family: "Blinker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.story-section .story-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.story-section .story-card .left{
+    flex:2;
+    /* height: 400px; */
+}
+
+.story-section .story-card .left img{
+    width: 100%;
+}
+
+.story-section .story-card .right{
+    flex: 1;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 785px;
+}
+
+
+.story-section .story-card .right .topic{
+    color: rgb(0, 99, 0);
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: .8rem;
+}
+
+.story-section .story-card .right .desc{
+    color: rgb(0, 99, 0);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: .8rem;
+    text-align: center;
+}
+
+.story-section .story-card .right hr{
+    width: 50%;
+    color: rgb(0, 99, 0);
+    margin: .8rem;
+}
+
+.footer-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.footer-container .footer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container .footer-card .topic{
+    color: rgb(0, 99, 0);
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: .8rem;
+}
+
+.story-section .story-card .right .desc{
+    color: rgb(0, 99, 0);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: .8rem;
+    text-align: center;
+}
+
+.footer-card hr{
+    width: 10%;
+    color: rgb(0, 99, 0);
+    transform: rotate(90deg);
+}
